@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
-<body style="background-size: 100%;" background="Background.jpg">
-    <main style="display: inline-block; width: 100%; height: 100%;">
-        <div style="display: inline-block; 
-                    float: left; 
-                    position: fixed; 
-                    background-image: url(photo.jpg); 
-                    height: 530px; background-size: 100%; 
-                    width: 20%; 
-                    background-color: ivory;">
-            <div style="position: relative; margin-top: 50px; margin-left: 70px;">
-                <a style="font-size: 47px; 
-                        color: ivory;
-                        text-decoration: none;" 
-                        href="#">Sign Up</a>
+<body>
+    <main>
+        <div id="kaire">
+            <div>
+                <h1 id="signup">Sign Up</h1>
             </div>
-            <div style="margin-top: 90%; text-align: center;">
-                <a style="color: ivory;" href="#">Privacy policy & terms of service</a>
+            <div id="tos">
+                <a style="color: white;" href="#">Privacy policy & terms of service</a>
             </div>
         </div>
-        <div style="display: inline-block; float: right; background-color: #ffffff; height: 590px; width: 27%;">
+        <div id="desine">
             <div>
-                <a style="color: lightcoral;" href="#">X</a>
+                <a style="margin-left: 88%;" href="#">X</a><br>
+                <div id="des1">
+                    <div id="des2">
+                    <label for="Uname">Username</label>
+                    <input type="text" name="Uname">
+                    </div>
+                    <div>
+                    <label for="Mail">E-mail</label>
+                    <input type="text" name="Mail">
+                    </div>
+                    <div>
+                    <label for="Psw">Password</label>
+                    <input type="password" name="Psw">
+                    </div>
+                    <div>
+                    <label for="rpsw">Repeat password</label>
+                    <input type="password" name="rpsw">
+                    </div>
+                    <div style="text-align: center; padding-right: 10px;">
+                    <a href="#">Get started</a><p>or</p><a href="#">Sign in</a>
+                    </div>
                 </div>
-            <div style="text-align: center;">
-            <label for="Uname">Username</label><br>
-            <input type="text" name="Uname"><br>
-            <label for="Mail">E-mail</label><br>
-            <input type="text" name="Mail"><br>
-            <label for="Psw">Password</label><br>
-            <input type="password" name="Psw"><br>
-            <label for="rpsw">Repeat password</label><br>
-            <input type="password" name="rpsw"><br>
-            <p><a href="#">Get started</a>or<a href="#">Sign in</a></p>
             </div>
         </div>
     </main>

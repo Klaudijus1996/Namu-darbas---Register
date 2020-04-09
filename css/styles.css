@@ -1,0 +1,58 @@
+body {
+    background: url(/img/Background.jpg);
+    background-size: 100%;
+}
+    main {
+        width: 70%;
+        background-color: aqua;
+        margin: 0;
+        background: yellow;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        margin-right: -35%;
+        transform: translate(-35%, -35%)
+    }
+        div#kaire {
+            width: 40%;
+            background-color: blue;
+            float: left;
+            background-image: url(/img/Photo.jpg);
+            background-size: 100%;
+            margin-top: 8%;
+            
+        }
+            h1#signup {
+                font-size: 50px;
+                color: #ffffff;
+                margin-bottom: 90%;
+                margin-left: 10%;
+            }
+            div#tos {
+                text-decoration: none;
+                margin-bottom: 10%;
+                text-align: center;
+            }
+        div#desine {
+            width: 60%;
+            background-color: #ffffff;
+            float: right;
+            height: 600px;
+            text-align: left;
+            margin-top: 3%;
+        } 
+                div#des2 {
+                    display: block;
+                    display: in;
+                }
+                    label {
+                        display: block;
+                        margin-top: 8%;
+                        margin-left: 12%;
+                        padding: 3%;
+                    }
+                    input {
+                        display: block;
+                        margin-left: 15%;
+                        width: 65%;
+                    }
